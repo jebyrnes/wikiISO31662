@@ -11,5 +11,4 @@ globalVariables(c(
   "Entry(click to view codes)",
   "Local variant",
   "Country name (using title case)"
-
 ))

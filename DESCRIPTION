@@ -1,6 +1,6 @@
 Package: wikiISO31662
 Type: Package
-Title: Provides ISO 3166-2 Subdivision and Country Codes According to Wikipedia
+Title: Provides ISO 3166-2 Subdivision and Country Codes According to Wikipedia and More
 Version: 0.1.3
 Authors@R: 
     person(given = "Jarrett",

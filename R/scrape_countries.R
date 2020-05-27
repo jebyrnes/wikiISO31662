@@ -13,16 +13,17 @@
 #'
 #' head(iso_countries)
 #' }
-
-scrape_countries <- function(){
+#'
+scrape_countries <- function() {
   xml2::read_html(url) %>%
-    rvest:: html_nodes("table") %>%
+    rvest::html_nodes("table") %>%
     `[`(1) %>% # first  table
     rvest::html_table() %>%
     `[[`(1) %>%
     dplyr::select(1:2) %>%
-    dplyr::rename(country_code = `Entry(click to view codes)`,
-                  country_name = `Country name (using title case)`) %>%
+    dplyr::rename(
+      country_code = `Entry(click to view codes)`,
+      country_name = `Country name (using title case)`
+    ) %>%
     dplyr::as_tibble()
-
 }

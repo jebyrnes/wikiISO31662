@@ -7,6 +7,6 @@ iso_31662_countries <- scrape_countries()
 usethis::use_data(iso_31662_subdivisions, overwrite = TRUE)
 usethis::use_data(iso_31662_countries, overwrite = TRUE)
 
-#for a csv
+# for a csv
 readr::write_csv(iso_31662_subdivisions, here::here("data-raw", "iso_31662_subdivisions.csv"))
 readr::write_csv(iso_31662_countries, here::here("data-raw", "iso_31662_countries"))

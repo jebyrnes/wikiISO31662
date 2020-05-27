@@ -15,23 +15,23 @@
 #'
 #' head(iso_sub)
 #' }
-scrape_subdivisions <- function(quiet = TRUE){
+scrape_subdivisions <- function(quiet = TRUE) {
 
   # get the tables from which spring links!
   links <- xml2::read_html(url) %>%
-    rvest:: html_nodes("table") %>%
+    rvest::html_nodes("table") %>%
     `[`(1) %>% # first  table
     rvest::html_nodes("tr") %>%
     rvest::html_nodes("a") %>%
     rvest::html_attr("href") %>%
     grep("ISO_3166", ., value = TRUE)
 
-  #get tables
+  # get tables
   tabs <- purrr::map(links, parse_one_page, quiet = quiet)
   tabs <- purrr::discard(tabs, ~ nrow(.x) == 0)
   iso_df <- purrr::map_df(tabs, reshape_tab, quiet = quiet)
 
-  #format table
+  # format table
 
   # fix missing codes
   iso_df_filtered <- iso_df %>%
@@ -51,7 +51,7 @@ scrape_subdivisions <- function(quiet = TRUE){
     dplyr::ungroup() %>%
     # sift down
     dplyr::select(code, country_code, subdivision_name_type, subdivision_name) %>%
-    dplyr::filter(grepl("[n,N]ame", subdivision_name_type) | subdivision_name_type== "Local variant")
+    dplyr::filter(grepl("[n,N]ame", subdivision_name_type) | subdivision_name_type == "Local variant")
 
   iso_df_filtered
 }
