@@ -1,0 +1,28 @@
+Package: wikiISO31662
+Type: Package
+Title: Provides ISO 3166-2 Subdivision and Country Codes According to Wikipedia
+Version: 0.1.3
+Authors@R: 
+    person(given = "Jarrett",
+           family = "Byrnes",
+           role = c("aut", "cre"),
+           email = "jarrett.byrnes@umb.edu",
+           comment = c(ORCID = "0000-0002-9791-9472"))
+Description: This package provides a table of ISO 3166-2 codes for subdivisions as scraped from Wikipedia via <https://en.wikipedia.org/wiki/ISO_3166-2> for easy use in matching names to ISO codes. The data provided has many variations of names in different languages to ease difficult string matching tasks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/jebyrnes/wikiISO31662
+BugReports: https://github.com/jebyrnes/wikiISO31662/issues
+Imports: 
+    dplyr,
+    tidyr,
+    rvest,
+    purrr,
+    data.table,
+    magrittr,
+    xml2
+Depends: 
+    R (>= 2.10)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
