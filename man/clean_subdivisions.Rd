@@ -12,7 +12,7 @@ clean_subdivisions(adf, merge = TRUE)
 \item{merge}{Merge with the previous data? Defaults to TRUE}
 }
 \value{
-a tibble
+A tibble of information of codes in the same format as \code{\link{iso_31662_subdivisions}}
 }
 \description{
 Create Clean Subdivision Names without Additional Regional Specifications
