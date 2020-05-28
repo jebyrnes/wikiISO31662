@@ -8,8 +8,9 @@ iso_31662_countries <- scrape_countries()
 
 iso_31662_subdivisions_extended <- iso_31662_subdivisions %>%
   add_no_diacritic() %>%
-  clean_subdivisions() %>%
   bind_rows(scrape_iso_3166_2_js()) %>%
+  expand_abbreviations() %>%
+  clean_subdivisions() %>%
   group_by(code, country_code, subdivision_name) %>%
   slice(1L) %>%
   ungroup()
