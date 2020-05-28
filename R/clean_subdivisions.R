@@ -3,7 +3,7 @@
 #' @param adf A data frame with a `subdivision_name` column
 #' @param merge Merge with the previous data? Defaults to TRUE
 #'
-#' @return a tibble
+#' @return A tibble of information of codes in the same format as \code{\link{iso_31662_subdivisions}}
 #' @export
 #'
 #' @examples

@@ -1,5 +1,6 @@
 ## code to prepare `wikipedia_scrape` dataset goes here
 library(wikiISO31662)
+library(dplyr)
 
 iso_31662_subdivisions <- scrape_subdivisions(quiet = FALSE)
 iso_31662_countries <- scrape_countries()
@@ -7,7 +8,11 @@ iso_31662_countries <- scrape_countries()
 
 iso_31662_subdivisions_extended <- iso_31662_subdivisions %>%
   add_no_diacritic() %>%
-  clean_subdivisions()
+  clean_subdivisions() %>%
+  bind_rows(scrape_iso_3166_2_js()) %>%
+  group_by(code, country_code, subdivision_name) %>%
+  slice(1L) %>%
+  ungroup()
 
 usethis::use_data(iso_31662_subdivisions, overwrite = TRUE)
 usethis::use_data(iso_31662_subdivisions_extended, overwrite = TRUE)
