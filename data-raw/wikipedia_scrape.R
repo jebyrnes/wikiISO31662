@@ -6,7 +6,8 @@ iso_31662_countries <- scrape_countries()
 
 
 iso_31662_subdivisions_extended <- iso_31662_subdivisions %>%
-  add_no_diacritic()
+  add_no_diacritic() %>%
+  clean_subdivisions()
 
 usethis::use_data(iso_31662_subdivisions, overwrite = TRUE)
 usethis::use_data(iso_31662_subdivisions_extended, overwrite = TRUE)

@@ -6,6 +6,7 @@ use_r("globals")
 use_r("scrape_subdivisions")
 use_r("scrape_countries")
 use_r("add_no_diacritic")
+use_r("clean_subdivisions")
 use_r("data")
 
 use_package("dplyr")

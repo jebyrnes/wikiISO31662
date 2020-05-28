@@ -21,9 +21,10 @@
 #' Currently includes
 #' \describe{
 #'   \item{}{Names with no diacritics}
+#'   \item{}{Names cleaned of status signifiers (e.g., Township, Capital, etc.)}
 #'   }
 #'
-#' @format A data frame with 9720 rows and 4 variables:
+#' @format A data frame with 9885 rows and 4 variables:
 #' \describe{
 #'   \item{code}{The ISO 3166-2 Subdivision Code}
 #'   \item{country_code}{The ISO 3166-2 Country Code of the country the subdivision is in}

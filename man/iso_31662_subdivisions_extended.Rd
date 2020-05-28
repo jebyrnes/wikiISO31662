@@ -5,7 +5,7 @@
 \alias{iso_31662_subdivisions_extended}
 \title{ISO 3166-2 Subdivision Codes from Wikipedia with Additional Modified Subdivisions}
 \format{
-A data frame with 9720 rows and 4 variables:
+A data frame with 9885 rows and 4 variables:
 \describe{
 \item{code}{The ISO 3166-2 Subdivision Code}
 \item{country_code}{The ISO 3166-2 Country Code of the country the subdivision is in}
@@ -27,6 +27,7 @@ acquisition of standardized ISO 3166-2 subdivision codes via a merge or join ope
 Currently includes
 \describe{
 \item{}{Names with no diacritics}
+\item{}{Names cleaned of status signifiers (e.g., Township, Capital, etc.)}
 }
 }
 \keyword{datasets}
