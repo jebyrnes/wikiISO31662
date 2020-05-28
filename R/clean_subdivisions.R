@@ -31,6 +31,8 @@ clean_subdivisions <- function(adf, merge = TRUE){
       subdivision_name = gsub(" Municipality$", "", subdivision_name),
       subdivision_name = gsub("s novads$", "", subdivision_name),
       subdivision_name = gsub(" Province$", "", subdivision_name),
+      subdivision_name = gsub(" \\(de\\)", "", subdivision_name),
+      subdivision_name = gsub("^Kanton )", "", subdivision_name),
       subdivision_name = gsub("^\\'", "", subdivision_name),
       subdivision_name = gsub("-Capital$", "", subdivision_name)
     ) %>%

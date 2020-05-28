@@ -5700,6 +5700,7 @@ CH-AR,CH,name_local_rnaturalearth,NA
 CH-BE,CH,iso-3166-2.js,Bern
 CH-BE,CH,Subdivision name,"Bern (de), Berne (fr)"
 CH-BE,CH,name_hu_rnaturalearth,Bern kanton
+CH-BE,CH,Subdivision name_cleaned,"Bern, Berne (fr)"
 CH-BE,CH,gns_name_rnaturalearth,"Bern, Kanton"
 CH-BE,CH,name_es_rnaturalearth,Berna
 CH-BE,CH,name_alt_rnaturalearth,Berna|Berne
@@ -5742,6 +5743,7 @@ CH-FR,CH,name_en_rnaturalearth,Canton of Fribourg
 CH-FR,CH,iso-3166-2.js,Freiburg
 CH-FR,CH,name_alt_rnaturalearth,Freiburg|Friburg|Friburgo
 CH-FR,CH,name_rnaturalearth,Fribourg
+CH-FR,CH,Subdivision name_cleaned,"Fribourg (fr), Freiburg"
 CH-FR,CH,Subdivision name,"Fribourg (fr), Freiburg (de)"
 CH-FR,CH,name_hu_rnaturalearth,Fribourg kanton
 CH-FR,CH,gns_name_rnaturalearth,"Fribourg, Canton de"
@@ -5784,6 +5786,8 @@ CH-GR,CH,iso-3166-2.js,Graubünden
 CH-GR,CH,Subdivision name_no_diacritic,"Graubunden (de), Grigioni (it), Grischun (rm), Grisons (fr)"
 CH-GR,CH,Subdivision name,"Graubünden (de), Grigioni (it), Grischun (rm), Grisons (fr)"
 CH-GR,CH,name_hu_rnaturalearth,Graubünden kanton
+CH-GR,CH,Subdivision name_no_diacritic_cleaned,"Graubunden, Grigioni (it), Grischun (rm), Grisons (fr)"
+CH-GR,CH,Subdivision name_cleaned,"Graubünden, Grigioni (it), Grischun (rm), Grisons (fr)"
 CH-GR,CH,gns_name_rnaturalearth,"Graubunden, Kanton"
 CH-GR,CH,name_alt_rnaturalearth,Graubünden|Grigioni|Grischun|Grisons
 CH-GR,CH,name_pt_rnaturalearth,Grisões
@@ -5954,6 +5958,7 @@ CH-VS,CH,name_it_rnaturalearth,Canton Vallese
 CH-VS,CH,name_id_rnaturalearth,Kanton Valais
 CH-VS,CH,name_de_rnaturalearth,Kanton Wallis
 CH-VS,CH,iso-3166-2.js,Valais
+CH-VS,CH,Subdivision name_cleaned,"Valais (fr), Wallis"
 CH-VS,CH,Subdivision name,"Valais (fr), Wallis (de)"
 CH-VS,CH,gns_name_rnaturalearth,"Valais, Canton du"
 CH-VS,CH,name_alt_rnaturalearth,Vallais|Vallese|Wallis
@@ -5977,6 +5982,7 @@ CH-ZH,CH,name_it_rnaturalearth,Canton Zurigo
 CH-ZH,CH,gn_name_rnaturalearth,Kanton Zurich
 CH-ZH,CH,name_de_rnaturalearth,Kanton Zürich
 CH-ZH,CH,name_alt_rnaturalearth,Turitg|Zurigo|Zürih|Zurique
+CH-ZH,CH,Subdivision name_no_diacritic_cleaned,Zurich
 CH-ZH,CH,name_es_rnaturalearth,Zúrich
 CH-ZH,CH,iso-3166-2.js,Zürich
 CH-ZH,CH,Subdivision name_no_diacritic,Zurich (de)
@@ -18260,6 +18266,8 @@ IT-23,IT,Subdivision name (it)[note 1],"Valle d'Aosta, Val d'Aoste (fr)"
 IT-25,IT,Subdivision name (it),Lombardia
 IT-25,IT,Subdivision name (en)[note 1],Lombardy
 IT-32,IT,iso-3166-2.js,Trentino-Alto Adige
+IT-32,IT,Subdivision name (it)[note 1]_no_diacritic_cleaned,"Trentino-Alto Adige, Trentino-Sudtirol"
+IT-32,IT,Subdivision name (it)[note 1]_cleaned,"Trentino-Alto Adige, Trentino-Südtirol"
 IT-32,IT,Subdivision name (it)[note 1]_no_diacritic,"Trentino-Alto Adige, Trentino-Sudtirol (de)"
 IT-32,IT,Subdivision name (it)[note 1],"Trentino-Alto Adige, Trentino-Südtirol (de)"
 IT-32,IT,Subdivision name (en)[note 2],Trentino-South Tyrol
@@ -18514,6 +18522,7 @@ IT-BT,IT,name_de_rnaturalearth,Provinz Barletta-Andria-Trani
 IT-BT,IT,name_pl_rnaturalearth,Prowincja Barletta-Andria-Trani
 IT-BT,IT,name_local_rnaturalearth,NA
 IT-BZ,IT,iso-3166-2.js,Bolzano
+IT-BZ,IT,Subdivision name_cleaned,"Bolzano, Bozen"
 IT-BZ,IT,Subdivision name,"Bolzano, Bozen (de)"
 IT-BZ,IT,name_alt_rnaturalearth,Bolzano|Trentino - Alto Adige|Trentino-Alto Adigio|Trentino-South Tirol|Venezia Tridentina
 IT-BZ,IT,name_rnaturalearth,Bozen
@@ -23324,6 +23333,8 @@ LU-L,LU,name_alt_rnaturalearth,Lëtzebuerg|Luxemburg
 LU-L,LU,name_rnaturalearth,Luxembourg
 LU-L,LU,Subdivision name_no_diacritic,"Luxembourg (fr), Luxemburg (de), Letzebuerg (lb)"
 LU-L,LU,Subdivision name,"Luxembourg (fr), Luxemburg (de), Lëtzebuerg (lb)"
+LU-L,LU,Subdivision name_no_diacritic_cleaned,"Luxembourg (fr), Luxemburg, Letzebuerg (lb)"
+LU-L,LU,Subdivision name_cleaned,"Luxembourg (fr), Luxemburg, Lëtzebuerg (lb)"
 LU-L,LU,gns_name_rnaturalearth,"Luxembourg, District de"
 LU-L,LU,name_local_rnaturalearth,NA
 LU-LU,LU,Subdivision name (lb)_no_diacritic,Letzebuerg
