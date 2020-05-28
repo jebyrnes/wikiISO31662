@@ -21,7 +21,8 @@ Imports:
     purrr,
     data.table,
     magrittr,
-    xml2
+    xml2,
+    stringi
 Depends: 
     R (>= 2.10)
 Roxygen: list(markdown = TRUE)

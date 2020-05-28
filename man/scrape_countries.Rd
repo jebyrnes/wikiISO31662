@@ -18,6 +18,7 @@ iso_countries <- scrape_countries()
 
 head(iso_countries)
 }
+
 }
 \references{
 Wikipedia ISO-3166-2 Entry: \url{https://en.wikipedia.org/wiki/ISO_3166-2}

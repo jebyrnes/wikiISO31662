@@ -10,5 +10,7 @@ globalVariables(c(
   ".",
   "Entry(click to view codes)",
   "Local variant",
-  "Country name (using title case)"
+  "Country name (using title case)",
+  "subdivision_name_old"
+
 ))

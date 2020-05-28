@@ -4,7 +4,12 @@ library(wikiISO31662)
 iso_31662_subdivisions <- scrape_subdivisions(quiet = FALSE)
 iso_31662_countries <- scrape_countries()
 
+
+iso_31662_subdivisions_extended <- iso_31662_subdivisions %>%
+  add_no_diacritic()
+
 usethis::use_data(iso_31662_subdivisions, overwrite = TRUE)
+usethis::use_data(iso_31662_subdivisions_extended, overwrite = TRUE)
 usethis::use_data(iso_31662_countries, overwrite = TRUE)
 
 # for a csv
