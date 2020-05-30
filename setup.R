@@ -10,6 +10,7 @@ use_r("clean_subdivisions")
 use_r("data")
 use_r("add_saints")
 use_r("scrape_rnaturalearth")
+use_r("split_multiple_names")
 
 use_package("dplyr")
 use_package("tidyr")

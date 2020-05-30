@@ -34,7 +34,10 @@ clean_subdivisions <- function(adf, merge = TRUE){
       subdivision_name = gsub(" \\(de\\)", "", subdivision_name),
       subdivision_name = gsub("^Kanton )", "", subdivision_name),
       subdivision_name = gsub("^\\'", "", subdivision_name),
-      subdivision_name = gsub("-Capital$", "", subdivision_name)
+      subdivision_name = gsub("-Capital$", "", subdivision_name),
+      subdivision_name = gsub(" \\([a-z][a-z]\\)", "", subdivision_name), #remove language signifiers
+      subdivision_name = gsub(" \\[.*\\]$", "", subdivision_name) #notes
+
     ) %>%
     dplyr::filter(subdivision_name != subdivision_name_old) %>%
     dplyr::select(-subdivision_name_old) %>%
