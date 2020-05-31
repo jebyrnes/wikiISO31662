@@ -34,9 +34,9 @@ split_multiple_names <- function(adf){
 
   #for everything else, one row per name
   out <- out %>%
-    rowwise() %>% #OH NOES! Yes, I'm doing it - for now
+   # rowwise() %>% #OH NOES! Yes, I'm doing it - for now
     dplyr::mutate(subdivision_name = purrr::map(subdivision_name, split_names_df)) %>%
-    tidyr::unnest(subdivision_name) %>%
+    tidyr::unnest(cols = subdivision_name) %>%
     filter(!(subdivision_name %in% for_reverse)) #get rid of cruft
 
   #return combined

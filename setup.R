@@ -11,6 +11,8 @@ use_r("data")
 use_r("add_saints")
 use_r("scrape_rnaturalearth")
 use_r("split_multiple_names")
+use_r("scrape_iso")
+use_r("scrape_hyperknot")
 
 use_package("dplyr")
 use_package("tidyr")
