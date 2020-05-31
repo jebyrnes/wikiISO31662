@@ -23,7 +23,7 @@ scrape_hyperknot <- function(){
   hyperknot_url <- "https://github.com/hyperknot/country-levels/releases/download/v2.2.0/export_json.tgz"
   f <- tempfile()
   utils::download.file(hyperknot_url, f, quiet=TRUE)
-  utils::untar(f)
+  utils::untar(f, files = c("iso1.json", "iso2.json"))
   unlink(f)
 
   #load files
@@ -31,7 +31,7 @@ scrape_hyperknot <- function(){
   iso2 <- jsonlite::fromJSON("iso2.json")
 
   #remove files
-  unlink(c("iso1.json", "fips.json", "iso2.json"))
+  unlink(c("iso1.json", "iso2.json"))
 
   #make data frames
 
@@ -43,7 +43,7 @@ scrape_hyperknot <- function(){
   iso2 %>%
     dplyr::rename(subdivision_name = name) %>%
     mutate(subdivision_name_type = "github_hyperknot_country-levels",
-           country_code = gsub("(^..)(-.*)", "\\1", subdivision_name)) %>%
+           country_code = gsub("(^..)(-.*)", "\\1", code)) %>%
     dplyr::select(code, country_code, subdivision_name_type, subdivision_name)
 
 }
