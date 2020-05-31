@@ -10,6 +10,7 @@ iso_31662_subdivisions_extended <- iso_31662_subdivisions %>%
   add_no_diacritic() %>%
   bind_rows(scrape_iso_3166_2_js()) %>%
   bind_rows(scrape_rnaturalearth()) %>%
+  bind_rows(scrape_hyperknot()) %>%
   expand_abbreviations() %>%
   split_multiple_names() %>%
   clean_subdivisions() %>%

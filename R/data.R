@@ -25,7 +25,7 @@
 #'   \item{}{Names from iso-3166-2.js}
 #'   }
 #'
-#' @format A data frame with 44776 rows and 4 variables:
+#' @format A data frame with 50325 rows and 4 variables:
 #' \describe{
 #'   \item{code}{The ISO 3166-2 Subdivision Code}
 #'   \item{country_code}{The ISO 3166-2 Country Code of the country the subdivision is in}
