@@ -14,7 +14,7 @@ iso_31662_subdivisions_extended <- iso_31662_subdivisions %>%
   split_multiple_names() %>%
   clean_subdivisions() %>%
   add_no_diacritic() %>%
-  group_by(code, country_code, subdivision_name) %>%
+  group_by(country_code, subdivision_name) %>%
   slice(1L) %>%
   ungroup()
 
