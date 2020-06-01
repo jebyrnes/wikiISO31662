@@ -22,6 +22,7 @@ scrape_rnaturalearth <- function(){
     dplyr::as_tibble() %>%
     dplyr::select(-geometry)
 
+
   #reshape names with tidyr
   rnat_reshape  <- rnat %>%
     dplyr::select(iso_3166_2, iso_a2, dplyr::contains("name"), -name_len) %>%
@@ -32,6 +33,16 @@ scrape_rnaturalearth <- function(){
     dplyr::mutate(subdivision_name_type =
                     paste(subdivision_name_type, "rnaturalearth", sep = "_")) %>%
     dplyr::filter(!is.na(subdivision_name))
+
+
+  #fix london
+  rnat_reshape <- rnat_reshape %>%
+    dplyr::filter(subdivision_name != "Greater London") %>%
+    dplyr::bind_rows(tibble(code = "GB-LND",
+              country_code = "GB",
+              subdivision_name_type = "gn_name_naturalearth",
+              subdivision_name = "Greater London"))
+
 
   rnat_reshape
 }
