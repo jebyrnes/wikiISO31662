@@ -15685,7 +15685,7 @@ GB-GLG,GB,Subdivision name (en),Glasgow City
 GB-GLS,GB,gns_name_rnaturalearth,Gloucestershire
 GB-GLS,GB,gns_name_rnaturalearth,"Gloucestershire, County of"
 GB-GBN,GB,Name,Great Britain
-GB-WND,GB,gn_name_rnaturalearth,Greater London
+GB-LND,GB,gn_name_naturalearth,Greater London
 GB-WGN,GB,woe_name_rnaturalearth,Greater Manchester
 GB-GRE,GB,gns_name_rnaturalearth,Greenwich
 GB-GRE,GB,gns_name_rnaturalearth,"Greenwich, London Borough of"
