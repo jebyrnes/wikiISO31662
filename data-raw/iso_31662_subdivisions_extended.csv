@@ -5799,12 +5799,12 @@ CF-HM,CF,Subdivision name (sg)_no_diacritic_cleaned,To Mbomu
 CF-HM,CF,Subdivision name (sg)_cleaned,Tö Mbömü
 CF-HM,CF,Subdivision name (sg)_no_diacritic,To-Mbomu
 CF-HM,CF,Subdivision name (sg),Tö-Mbömü
-CF-HS,CF,name_alt_rnaturalearth_cleaned,Haute Sangha
+CF-HS,CF,iso-3166-2.js_cleaned,Haute Sangha
 CF-HS,CF,iso-3166-2.js_cleaned,Haute Sangha / Mambéré Kadéï
 CF-HS,CF,Subdivision name (fr)_no_diacritic_cleaned,Haute Sangha/Mambere Kadei
 CF-HS,CF,Subdivision name (fr)_cleaned,Haute Sangha/Mambéré Kadéï
 CF-HS,CF,name_alt_rnaturalearth_cleaned,Haute Sangha|Mambéré Kadéi
-CF-HS,CF,name_alt_rnaturalearth,Haute-Sangha
+CF-HS,CF,iso-3166-2.js,Haute-Sangha
 CF-HS,CF,iso-3166-2.js,Haute-Sangha / Mambéré-Kadéï
 CF-HS,CF,Subdivision name (fr)_no_diacritic,Haute-Sangha/Mambere-Kadei
 CF-HS,CF,Subdivision name (fr),Haute-Sangha/Mambéré-Kadéï
@@ -5812,12 +5812,12 @@ CF-HS,CF,name_alt_rnaturalearth,Haute-Sangha|Mambéré Kadéi
 CF-HS,CF,gns_name_rnaturalearth_cleaned,Mambere Kadei
 CF-HS,CF,name_tr_rnaturalearth_cleaned,Mambéré Kadei
 CF-HS,CF,name_alt_rnaturalearth,Mambéré Kadéi
-CF-HS,CF,name_rnaturalearth_cleaned,Mambéré Kadéï
+CF-HS,CF,iso-3166-2.js_cleaned,Mambéré Kadéï
 CF-HS,CF,gns_name_rnaturalearth_cleaned,"Mambere Kadei, Prefecture de la"
 CF-HS,CF,gns_name_rnaturalearth,Mambere-Kadei
 CF-HS,CF,name_tr_rnaturalearth,Mambéré-Kadei
 CF-HS,CF,name_vi_rnaturalearth,Mambéré-Kadéi
-CF-HS,CF,name_rnaturalearth,Mambéré-Kadéï
+CF-HS,CF,iso-3166-2.js,Mambéré-Kadéï
 CF-HS,CF,gns_name_rnaturalearth,"Mambere-Kadei, Prefecture de la"
 CF-HS,CF,gns_name_rnaturalearth_cleaned,Prefecture de la Mambere Kadei
 CF-HS,CF,gns_name_rnaturalearth,Prefecture de la Mambere-Kadei
@@ -11322,6 +11322,7 @@ ER-SN,ER,Subdivision name,Senhit [Sänhet]
 ER-SR,ER,Subdivision name_cleaned,Seraye
 ER-SR,ER,Subdivision name_no_diacritic,Seraye [Saraye]
 ER-SR,ER,Subdivision name,Seraye [Särayé]
+ES-A,ES,github_hyperknot_country-levels,Alacant
 ES-A,ES,github_hyperknot_country-levels,Alacant / Alicante
 ES-A,ES,iso-3166-2.js,Alacant*
 ES-A,ES,gns_name_rnaturalearth,Alicante
@@ -11507,9 +11508,10 @@ ES-CR,ES,gns_name_rnaturalearth,Provincia de Ciudad Real
 ES-CR,ES,name_it_rnaturalearth,provincia di Ciudad Real
 ES-CR,ES,name_id_rnaturalearth,Provinsi Ciudad Real
 ES-CR,ES,name_de_rnaturalearth,Provinz Ciudad Real
+ES-CS,ES,github_hyperknot_country-levels,Castelló
 ES-CS,ES,github_hyperknot_country-levels,Castelló / Castellón
 ES-CS,ES,iso-3166-2.js,Castelló*
-ES-CS,ES,name_rnaturalearth,Castellón
+ES-CS,ES,github_hyperknot_country-levels,Castellón
 ES-CS,ES,gns_name_rnaturalearth,Castellon de la Plana
 ES-CS,ES,gns_name_rnaturalearth,"Castellon de la Plana, Provincia de"
 ES-CS,ES,name_en_rnaturalearth,Castellón Province
@@ -11948,14 +11950,14 @@ ES-VC,ES,iso-3166-2.js,"Valenciana, Comunidad"
 ES-VC,ES,Subdivision name (es)[note 1]_cleaned,"Valenciana, ComunidadValenciana, Comunitat"
 ES-VC,ES,Subdivision name (es)[note 1],"Valenciana, ComunidadValenciana, Comunitat (ca)"
 ES-VI,ES,gns_name_rnaturalearth,Alava
-ES-VI,ES,iso-3166-2.js,Álava
+ES-VI,ES,name_en_rnaturalearth,Álava
 ES-VI,ES,name_tr_rnaturalearth,Álava ili
 ES-VI,ES,gns_name_rnaturalearth,"Alava, Provincia de"
 ES-VI,ES,Subdivision name (es)_no_diacritic_cleaned,AlavaAraba
 ES-VI,ES,Subdivision name (es)_cleaned,ÁlavaAraba
 ES-VI,ES,Subdivision name (es)_no_diacritic,AlavaAraba (eu)
 ES-VI,ES,Subdivision name (es),ÁlavaAraba (eu)
-ES-VI,ES,name_hu_rnaturalearth,Araba
+ES-VI,ES,name_en_rnaturalearth,Araba
 ES-VI,ES,name_en_rnaturalearth,Araba / Álava
 ES-VI,ES,woe_name_rnaturalearth,País Vasco
 ES-VI,ES,name_fr_rnaturalearth,province d'Alava
@@ -32844,8 +32846,8 @@ NO-18,NO,"Subdivision name (nb, nn)",Nordland
 NO-18,NO,name_alt_rnaturalearth,Nordland fylke
 NO-18,NO,gn_name_rnaturalearth,Nordland Fylke
 NO-18,NO,name_hu_rnaturalearth,Nordland megye
-NO-19,NO,iso-3166-2.js,Romsa
-NO-19,NO,name_rnaturalearth,Troms
+NO-19,NO,"Subdivision name (nb, nn)",Romsa
+NO-19,NO,"Subdivision name (nb, nn)",Troms
 NO-19,NO,"Subdivision name (nb, nn)_cleaned",Troms / Romsa
 NO-19,NO,"Subdivision name (nb, nn)",Troms / Romsa (se)
 NO-19,NO,name_alt_rnaturalearth,Troms fylke
@@ -32858,7 +32860,7 @@ NO-19,NO,name_alt_rnaturalearth,Troms-Fylki
 NO-19,NO,name_alt_rnaturalearth,Tromsø
 NO-20,NO,name_fr_rnaturalearth,comté de Finnmark
 NO-20,NO,name_alt_rnaturalearth,Finmarken
-NO-20,NO,iso-3166-2.js,Finnmark
+NO-20,NO,"Subdivision name (nb, nn)",Finnmark
 NO-20,NO,"Subdivision name (nb, nn)_no_diacritic_cleaned",Finnmark / Finnmarku
 NO-20,NO,"Subdivision name (nb, nn)_cleaned",Finnmark / Finnmárku
 NO-20,NO,"Subdivision name (nb, nn)_no_diacritic",Finnmark / Finnmarku (se)
@@ -32868,6 +32870,8 @@ NO-20,NO,gn_name_rnaturalearth,Finnmark Fylke
 NO-20,NO,name_alt_rnaturalearth,Finnmark fylke|Finmarken|Finnmárkku|Finnmörk
 NO-20,NO,name_hu_rnaturalearth,Finnmark megye
 NO-20,NO,name_alt_rnaturalearth,Finnmárkku
+NO-20,NO,"Subdivision name (nb, nn)_no_diacritic",Finnmarku
+NO-20,NO,"Subdivision name (nb, nn)",Finnmárku
 NO-20,NO,name_alt_rnaturalearth,Finnmörk
 NO-21,NO,name_it_rnaturalearth,Isole Svalbard
 NO-21,NO,name_nl_rnaturalearth,Spitsbergen
@@ -32882,6 +32886,9 @@ NO-42,NO,"Subdivision name (nb, nn)",Agder
 NO-46,NO,"Subdivision name (nb, nn)",Vestland
 NO-50,NO,"Subdivision name (nb, nn)_no_diacritic",Trondelag
 NO-50,NO,"Subdivision name (nb, nn)",Trøndelag
+NO-54,NO,"Subdivision name (nb, nn)_no_diacritic",Romsa ja Finnmarku
+NO-54,NO,"Subdivision name (nb, nn)",Romsa ja Finnmárku
+NO-54,NO,"Subdivision name (nb, nn)",Troms og Finnmark
 NO-54,NO,"Subdivision name (nb, nn)_no_diacritic_cleaned",Troms og Finnmark / Romsa ja Finnmarku
 NO-54,NO,"Subdivision name (nb, nn)_cleaned",Troms og Finnmark / Romsa ja Finnmárku
 NO-54,NO,"Subdivision name (nb, nn)_no_diacritic",Troms og Finnmark / Romsa ja Finnmarku (se)
@@ -39779,7 +39786,7 @@ SI-040,SI,gn_name_rnaturalearth,Comune di Isola
 SI-040,SI,name_pl_rnaturalearth,Gmina Izola
 SI-040,SI,gns_name_rnaturalearth,Isola
 SI-040,SI,gns_name_rnaturalearth,"Isola, Comune di"
-SI-040,SI,Subdivision name (sl),Izola
+SI-040,SI,github_hyperknot_country-levels,Izola
 SI-040,SI,github_hyperknot_country-levels,Izola / Isola
 SI-041,SI,Local variant,
 SI-041,SI,name_pl_rnaturalearth,Gmina Jesenice
@@ -39865,7 +39872,7 @@ SI-05,SI,gns_name_rnaturalearth,Zagorje ob Savi
 SI-05,SI,name_en_rnaturalearth,Zagorje ob Savi Municipality
 SI-05,SI,gns_name_rnaturalearth,"Zagorje ob Savi, Obcina"
 SI-05,SI,Subdivision name (sl),Zasavska
-SI-050,SI,Local variant,Capodistria
+SI-050,SI,github_hyperknot_country-levels,Capodistria
 SI-050,SI,name_pl_rnaturalearth,Gmina miejska Koper
 SI-050,SI,gns_name_rnaturalearth,Koper
 SI-050,SI,github_hyperknot_country-levels,Koper / Capodistria
@@ -39948,9 +39955,9 @@ SI-058,SI,gns_name_rnaturalearth,"Lenart, Obcina"
 SI-058,SI,name_es_rnaturalearth,Municipalidad del Lenart
 SI-058,SI,name_fr_rnaturalearth,Municipalité de Lenart
 SI-058,SI,gns_name_rnaturalearth,Obcina Lenart
-SI-059,SI,Subdivision name (sl),Lendava
+SI-059,SI,github_hyperknot_country-levels,Lendava
 SI-059,SI,github_hyperknot_country-levels,Lendava / Lendva
-SI-059,SI,Local variant,Lendva
+SI-059,SI,github_hyperknot_country-levels,Lendva
 SI-059,SI,gn_name_rnaturalearth,Obcina Lendava
 SI-06,SI,Subdivision name (sl),Spodnjeposavska
 SI-060,SI,Local variant,
@@ -40225,7 +40232,7 @@ SI-090,SI,gns_name_rnaturalearth,Obcina Piran
 SI-090,SI,gns_name_rnaturalearth,Piran
 SI-090,SI,github_hyperknot_country-levels,Piran / Pirano
 SI-090,SI,gns_name_rnaturalearth,"Piran, Obcina"
-SI-090,SI,Local variant,Pirano
+SI-090,SI,github_hyperknot_country-levels,Pirano
 SI-091,SI,Local variant,
 SI-091,SI,name_de_rnaturalearth,Gemeinde Pivka
 SI-091,SI,name_pl_rnaturalearth,Gmina Pivka
@@ -40857,7 +40864,7 @@ SI-155,SI,gns_name_rnaturalearth,"Dobrna, Obcina"
 SI-155,SI,name_pl_rnaturalearth,Gmina Dobrna
 SI-155,SI,name_id_rnaturalearth,Kotamadya Dobrna
 SI-155,SI,gns_name_rnaturalearth,Obcina Dobrna
-SI-156,SI,Local variant,Dobronak
+SI-156,SI,github_hyperknot_country-levels,Dobronak
 SI-156,SI,name_hu_rnaturalearth,Dobronak község
 SI-156,SI,gns_name_rnaturalearth,Dobrovnik
 SI-156,SI,github_hyperknot_country-levels,Dobrovnik / Dobronak
@@ -40913,7 +40920,7 @@ SI-160,SI,gns_name_rnaturalearth,Obcina Hoce-Slivnica
 SI-161,SI,name_de_rnaturalearth,Gemeinde Hodoš
 SI-161,SI,name_pl_rnaturalearth,Gmina Hodoš
 SI-161,SI,gns_name_rnaturalearth,Hodos
-SI-161,SI,Subdivision name (sl),Hodoš
+SI-161,SI,github_hyperknot_country-levels,Hodoš
 SI-161,SI,github_hyperknot_country-levels,Hodoš / Hodos
 SI-161,SI,name_tr_rnaturalearth,Hodos Belediyesi
 SI-161,SI,name_sv_rnaturalearth,Hodos kommun
@@ -41288,8 +41295,8 @@ SI-211,SI,Subdivision name (sl)_no_diacritic,Sentrupert
 SI-211,SI,Subdivision name (sl),Šentrupert
 SI-212,SI,Local variant,
 SI-212,SI,Subdivision name (sl),Mirna
-SI-213,SI,Local variant,Ancarano
-SI-213,SI,Subdivision name (sl),Ankaran
+SI-213,SI,github_hyperknot_country-levels,Ancarano
+SI-213,SI,github_hyperknot_country-levels,Ankaran
 SI-213,SI,github_hyperknot_country-levels,Ankaran / Ancarano
 SJ-SJ,SJ,iso-3166-2.js,Svalbard & Jan Mayen Islands
 SK-BC,SK,name_alt_rnaturalearth,Banská Bystrica

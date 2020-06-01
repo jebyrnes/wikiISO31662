@@ -2,7 +2,7 @@
 #|
 split_multiple_names <- function(adf){
   out <- adf %>%
-    dplyr::filter(grepl("[,|]", subdivision_name)) %>%
+    dplyr::filter(grepl("[,|]| \\/ ", subdivision_name)) %>%
     dplyr::mutate(subdivision_name = gsub("\\, ", "\\,", subdivision_name),
                   subdivision_name = gsub(" \\([a-z][a-z]\\)", "", subdivision_name),
                   subdivision_name = gsub(" \\(|\\)", "", subdivision_name)
@@ -44,7 +44,7 @@ split_multiple_names <- function(adf){
 
 }
 
-split_names_df <- function(.x, split = "[,|]"){
+split_names_df <- function(.x, split = "[,|]| \\/ "){
   data.frame(subdivision_name =
                strsplit(.x, split = split)[[1]])
 }
